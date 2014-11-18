@@ -1,0 +1,7 @@
+This is the attempt at gmcp mapping in BlowTorch. It is a rather complicated script that has been adapted from the mushclient mapper made by Feindish and Nick Gammon.
+
+It is not currently bundled in the aardwolf plugins package because this is very experimental and has not been worked into the layout manager plugin framework. It is more or less half done. There is basically nothing done for the ui drawing part of it. But the mapping/sqlite3 parts seem to be working at least at this point.
+
+This plugin requires that GMCP be turned on in the BlowTorch client, as well as the Hello string changed to include the room data.
+
+Use this plugin at your own risk. It hasn't really been developed to the point where the question can be answered "can my phone run a mapper?" At the time of development it was shakey, but phones have come a long way since then and I think it is in the cards to get this done. However the nature of luajava being primarily based on java reflection and its notoriously, unadvisably bad performance may preclude that till more custom handled drawing code is fleshed out.
